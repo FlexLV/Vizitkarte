@@ -47,10 +47,14 @@
         <header>
           <div class="contact-info">
             <h1>Šeit jūs varat sazināties ar mani</h1>
-            <form action="contact.php" method="post" class="forma">
+            <form action="contact.php" method="POST" class="forma">
+              <div>
+                <label for="vards">Jusu vārds </label>
+                <input type="text" name="vards" id="vards" autofocus>
+              </div>
               <div>
                 <label for="sutitja-epasts">Jusu e-pasta addrese</label>
-                <input type="email" name="sutitja-epasts" id="sutitja-epasts" autofocus>
+                <input type="email" name="sutitja-epasts" id="sutitja-epasts" >
               </div>
               <div>
                   <label for="sutitaja-zina">Teksts ko velaties atstāt</label>
